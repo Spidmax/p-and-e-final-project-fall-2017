@@ -2,6 +2,8 @@
 
 A device that automatically detects the room humidity and turns on/off humidifier to control the humidity in the range comfortable for humans. 
 
+![](https://github.com/Spidmax/p-and-e-final-project-fall-2017/blob/master/final.jpg)
+
 <br/>
 
 ## Summary
@@ -35,11 +37,17 @@ The software includes a html file that displays the power state.
 
 ### Week 1-2
 I purchased Photon, a cheap alternative for Arduino Wi-Fi. It has a totally different console system from Arduino, so it's quite difficult to control and I have to search a lot for solutions. <br/>
-I also purchased Adafruit Si7021 Temperature & Humidity Sensor. AdaFruit provides a tutorial website, and Photon has a sample project in the library too, which significantly benefits my building process. <br/>
+I also purchased Adafruit Si7021 Temperature & Humidity Sensor. AdaFruit provides a tutorial website, and Photon has a sample project in the library too, which significantly benefits my building process. 
+
+![](https://github.com/Spidmax/p-and-e-final-project-fall-2017/blob/master/example.png)
+
+<br/>
+
 The humidity sensor is connected to the D7 input on Photon. <br/>
 
-
 ![](https://github.com/Spidmax/p-and-e-final-project-fall-2017/blob/master/circuit.png)
+
+<br/>
 
 ### Week 3-5
 I prototyped the circuit with sensors and devices, built the website, connected with the system, and made it functional. <br/>
@@ -52,6 +60,7 @@ Photon has the variables & events feature as a replacement for the print functio
 
 In the website html, the user input will influence the value `arg`, which will be transfered into `userHumidity` in the core code. 
   
+![](https://github.com/Spidmax/p-and-e-final-project-fall-2017/blob/master/circuit.png)
 
 
 <br/>
