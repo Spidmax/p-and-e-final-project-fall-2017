@@ -46,6 +46,7 @@ Photon has the variables & events feature as a replacement for the print functio
   - `t`: the value of temperature (degrees of Celsius) <br/>
   - `userHumidity`: the value of humidity declared by the user <br/>
 <br/>
+
 In the website html, the user input will influence the value `arg`, which will be transfered into `userHumidity` in the core code. 
   
 
